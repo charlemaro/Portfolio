@@ -96,6 +96,5 @@ function checking(){
 
 form.addEventListener("submit",(e)=>{
     e.preventDefault();
-    checking();
     sendEmail();
 })
